@@ -14,3 +14,5 @@ After training the Regressor and testing it, i tried improving the results by up
 For the improvement of the image's score i used CLAHE (Contrast Limited Adaptive Histogram Equalization) algorithm followed by a slight filtering.
 
 The final step was to design a Graphical User Interface so as the algorithm functionality can be tested.
+
+In the written part of my Bachelor Thesis i briefly explained the theory behind the image analyzing techniques i used, the Random Forest Regressor algorithm and the image processing techniques, followed by a thorough and detailed walk-through of the steps and the results i obtained with the different models on the different data subsets, using examples of tested images and graphs of the errors and the data features extracted, in the end drawing my conclusions on what i obtained and how this project can be used in different areas like real-estate, art contests, photography and other domains. 
