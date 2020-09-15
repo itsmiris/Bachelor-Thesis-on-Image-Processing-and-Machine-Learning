@@ -9,6 +9,8 @@ The second step was to extract features from these images, namely the HSV histog
 
 The third step was to feed this data, with the labels denoting the attractiveness' score of the images, in a machine learning algorithm, namely a Random Forest Regressor.
 
-After training the Regressor and testing it, i tried improving the results by updating the machine learning model, using bagging and random features techniques.
+After training the Regressor and testing it, i tried improving the results by updating the machine learning model, using bagging and random features techniques as well as GridSearch. 
 
-The final step was to design a Graphical User Interface so as the algorithm functionality can be tested. 
+For the improvement of the image's score i used CLAHE (Contrast Limited Adaptive Histogram Equalization) algorithm followed by a slight filtering.
+
+The final step was to design a Graphical User Interface so as the algorithm functionality can be tested.
