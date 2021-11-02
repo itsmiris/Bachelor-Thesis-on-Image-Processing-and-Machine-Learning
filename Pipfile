@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+opencv-python = "*"
+matplotlib = "*"
+pyyaml = "*"
+scipy = "*"
+pyqt5 = "*"
+pyqt5-stubs = "==5.15.2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

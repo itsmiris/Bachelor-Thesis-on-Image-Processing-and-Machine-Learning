@@ -1,0 +1,23 @@
+datasets:
+  paths:
+    images: 'C:\Users\user\Desktop\licenta\15000\AVA_dataset\imageslucru\'
+    ava: 'C:\Users\user\Desktop\licenta\15000\AVA_dataset\AVAlucru.txt'
+  train_val_split_size: 200
+  size: 15000
+  
+misc:
+  scores_filepath: 'scores.txt'
+  scores_final_filepath: 'scoresfinal.txt'
+  descriptors_filepath: 'image_descriptor.txt'
+  example_1_image_filepath: 'C:\Users\user\Desktop\licenta\misc\4.1.03.tiff'
+  example_2_image_filepath: 'C:\Users\user\Desktop\licenta\standard_test_images\lena_color_512.tif'
+  
+random_forest:
+  descriptor_filepath: '1000_descriptor.txt'
+  scores_filepath: '1000_scores.txt'
+  test_size: 0.04
+  
+  regressor:
+    n_estimators: 100
+    max_samples: 1.0
+    max_features: 25
